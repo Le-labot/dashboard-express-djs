@@ -1,0 +1,22 @@
+{
+  "name": "dashboard-express-djs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Le-labot/dashboard-express-djs.git"
+  },
+  "author": "SlayerMonkey",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Le-labot/dashboard-express-djs/issues"
+  },
+  "homepage": "https://github.com/Le-labot/dashboard-express-djs#readme",
+  "dependencies": {
+    "discord.js": "^12.2.0"
+  }
+}
