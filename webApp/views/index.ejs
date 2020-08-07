@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <%- include('./modules/head', title) %>
+    </head>
+
+    <body>
+        <header>
+            <%-include('./modules/navbar', {user: user, bot: bot}) %>
+        </header>
+        <div class="container">
+            <h1 class="title">Tableau de bord - <%= bot.user.username%></h1>
+            <h4 class="subtitle">
+                <% if(bot.appInfo.description.length > 1) { %>
+                    <%=bot.appInfo.description %>
+               <% } else { %>
+                    Aucune description pour le moment
+                <% } %>
+            </h4>
+        </div>
+        <%-include('./modules/footer') %>
+    </body>
+
+</html>
