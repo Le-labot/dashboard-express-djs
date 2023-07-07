@@ -54,5 +54,3 @@ module.exports = (client) => {
 
     return app
 }
-//https://discord.com/oauth2/authorize?client_id=536616602301628436&redirect_uri=http%3A%2F%2F127.0.0.1%3A5000%2Fcallback&response_type=code&scope=identify%20guilds
-//https://discord.com/api/oauth2/authorize?prompt=consent&response_type=code&redirect_uri=http%3A%2F%2F127.0.0.1%3A5000%2Fcallback&scope=identify%20guilds&client_id=536616602301628436
